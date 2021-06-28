@@ -15,16 +15,6 @@ class Mentor
 end
 
 class RailsMentor < Mentor
-  # クラス変数
-
-  # インスタンス変数
-  attr_accessor :suffix
-
-  def initialize(suffix)
-    super
-    self.suffix
-  end
-
   def job
     puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
   end
